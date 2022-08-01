@@ -1,0 +1,14 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+div {
+width: 50vw;
+height: 50vh;
+background-color: aquamarine;
+}
+section {
+    width: 5vmax;
+    height: 50%;
+    background-color: rgb(4, 59, 40);
+}

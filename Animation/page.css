@@ -1,0 +1,84 @@
+*{
+    padding:0;
+    margin:0;
+}
+.keyframes{
+    width: 200px;
+    height:200px;
+    background-color: rgb(138, 202, 202);
+    position: absolute;
+    animation-name: nameaction;
+    /*animation-iteration-count: 2; repeter l'action deux fois*/
+    animation-direction:alternate;  /* aller et reteure au meme action */
+    animation-fill-mode: both;/* stope l'element a l'fine de l'action*/
+}
+.first{
+    animation-duration: 5s ;
+}
+.last{
+    animation-duration: 5.05s ;
+    background-color: rgb(138, 96, 96);
+}
+
+@keyframes nameaction{
+    from{
+        margin: 0px;
+        border-radius: 50%;
+    }
+    10%{
+        margin-top: 100px ;
+        margin-left:100px;
+        border-radius: 25%;
+        
+    }
+    20%{
+        margin-top: 0px ;
+        margin-left:200px;
+        border-radius: 50%;
+
+    }
+    30%{
+        margin-top: 100px ;
+        margin-left:300px;
+        border-radius: 25%;
+    }
+    40%{
+        margin-top: 0px ;
+        margin-left:400px;
+        border-radius: 25%;
+        
+    }
+    50%{
+        margin-top: 100px ;
+        margin-left:500px;
+        border-radius: 50%;
+
+    }
+    60%{
+        margin-top: 0px ;
+        margin-left:400px;
+        border-radius: 25%;
+    }
+    70%{
+        margin-top: 100px ;
+        margin-left:300px;
+        border-radius: 25%;
+    }
+    80%{
+        margin-top: 0px ;
+        margin-left:200px;
+        border-radius: 50%;
+
+    }
+    90%{
+        margin-top: 100px ;
+        margin-left:100px;
+        border-radius: 25%;      
+    }
+    to{
+        margin-top: 0px ;
+        margin-left:0px;
+    }
+
+
+}

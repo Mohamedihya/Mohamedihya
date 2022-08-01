@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    margin-top: 40px;
+    text-shadow:10px 10px 1px rgb(144, 140, 140);
+    color: white;
+}
+.div {
+    width: 300px;
+    height: 600px;
+    background-color: blue;
+    top:50%;
+    left:50%;
+   position: absolute;
+   margin-top:-300px;
+   margin-left:-150px ;
+   text-align: center;
+   box-shadow: 20px 30px 10px 40px black,-10px -10px 30px 10px black;
+}

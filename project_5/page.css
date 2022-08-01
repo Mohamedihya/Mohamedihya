@@ -1,0 +1,405 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+ ul{
+    padding: 0px 0px 0px 0px;
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 80%;
+    margin: 0px auto;
+}
+header{
+    position: relative;
+}
+header .header_1{
+    width: 100%;
+    height: 50px;
+    background-color:rgb(240, 240, 240);
+    display: flex;
+    align-items: center;
+}
+header .header_1 nav{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .header_1 nav .nav_1{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .header_1 nav .nav_1 .nav_1_1{
+   width: 44%;
+
+}
+header .header_1 nav .nav_1 .nav_1_1 li{
+    font-size: 15px;
+    width: 100%;
+}
+
+header .header_1 nav .nav_1 .nav_1_2{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ 
+ header .header_1 nav .nav_2{
+     width: 30%;
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ header .header_1 nav .nav_2 .nav_2_1{
+          width: 50%;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+ } 
+ header .header_1 nav .nav_2 .nav_2_2{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+header .header_1 nav .nav_2 .nav_2_2 i{
+            color: gray;
+}
+header .header_2{
+    width: 100%;
+    height: 90px;
+}
+header .header_2 nav{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .header_2 nav .nav_1{
+    width: 20%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+header .header_2 nav .nav_1 h1{
+    font-size: 35px;
+}
+header .header_2 nav .nav_2{
+    width: 30%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .header_2 nav .nav_2 li{
+    font-size: 20px;
+}
+header .header_2 nav .nav_3{
+    width: 10%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .header_2 nav .nav_3 li{
+    color: rgb(70, 70, 70);
+}
+/*-------------start main---------------*/
+main #categorie {
+    width: 100%;
+    height: 750px;
+}
+main #categorie .solde {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(33, 31, 31);
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+
+main #categorie .solde h4 {
+    color:white;
+}
+
+main #categorie .type {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+}
+main #categorie .type .womens {
+    width: 33.3333%;
+    height: 500px;
+    position: relative;
+    background-image: url('img/home1-banner-carousels-1.webp');
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+    text-align: center;
+    color: #FFF;
+}
+main #categorie .type .womens:after{
+    content:'';
+    position: absolute;
+    left:0px;
+    top: 0px;
+    width:100%;
+    height: 100%;
+   background-color:#01014926;
+   z-index: -1;
+}
+main #categorie .type .womens h1 {
+    margin-top: 180px;
+    color: white;
+    font-size: 50px;
+}
+main #categorie .type .womens button {
+    margin-top: 80px;
+    padding: 15px 15px;
+    font-size: 22px;
+}
+
+main #categorie .type .mens {
+    width: 33.3333%;
+    height: 500px;
+    position: relative;
+    background-image: url('img/home1-banner-carousels-2.webp');
+    background-position: center;
+    background-size: cover;
+    color:#FFF;
+    z-index: 1;
+    text-align: center;
+}
+main #categorie .type .mens:after{
+    content:'';
+    position: absolute;
+    left:0px;
+    top: 0px;
+    width:100%;
+    height: 100%;
+   background-color:#00004f26;
+   z-index: -1;
+}
+main #categorie .type .mens h1 {
+    margin-top: 180px;
+    color: white;
+    font-size: 50px;
+}
+main #categorie .type .mens button {
+    margin-top: 80px;
+    padding: 15px 15px;
+    font-size: 22px;
+}
+main #categorie .type .kids {
+    width: 33.3333%;
+    height: 500px;
+    position: relative;
+    background-image: url('img/home1-banner-carousels-3.webp');
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    z-index: 1;
+}
+main #categorie .type .kids:after{
+    content:'';
+    position: absolute;
+    left:0px;
+    top: 0px;
+    width:100%;
+    height: 100%;
+   background-color:#00004f26;
+   z-index: -1;
+}
+main #categorie .type .kids h1 {
+    margin-top: 180px;
+    color: white;
+    font-size: 50px;
+}
+main #categorie .type .kids button {
+    margin-top: 80px;
+    padding: 15px 15px;
+    font-size: 22px;
+}
+main #categorie .shipping{
+    width: 90%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto;
+    border-bottom: 2px solid rgb(228, 226, 226);
+}
+main #categorie .shipping .shipping-1{
+    width: 20%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main #categorie .shipping .shipping-1 h4{
+    color: gray;
+}
+main #categorie .shipping .shipping-1 .icone{
+    width: 20%;
+    height: 40px;
+}
+main #categorie .shipping .shipping-1 .icone i{
+    font-size: 40px;
+    color: rgb(57, 56, 56);
+}
+main #categorie .shipping .shipping-1 .description{
+    width: 80%;
+}
+main #collection{
+    width: 100%;
+    height: 900px;
+}
+main #collection .title{
+    width: 40%;
+    height: 200px;
+    margin: 0px auto;
+    text-align: center;
+}
+main #collection .title p{
+    font-size: 20px;
+    color: gray;
+}
+main #collection .title h1{
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+main #collection .shop{
+     width: 80%;
+     height: 400px;
+     display:flex;
+     justify-content: space-between;
+     align-items: center;
+     margin: 0px auto;
+}
+main #collection .shop .lien-1{
+    width: 38%;
+}
+main #collection .shop .shop-1{
+    width: 100%;
+    height: 400px;
+    background-image:url("img/home1-banner-grid-2.webp") ;
+    text-align: center;
+    position: relative;
+    
+}
+main #collection .shop .lien-1 .shop-1 h1{
+    color: white;
+    position: absolute;
+    font-size: 40px;
+    top: 200px;
+    left: 100.54px; 
+}
+main #collection .shop .lien-1 .shop-1 p{
+    margin-top: 250px;
+    color: white;
+    position: absolute;
+    font-size: 20px;
+    left: 184.336px; 
+    font-size: 20px;
+}
+main #collection .shop .lien-2{
+    width: 60%;
+}
+main #collection .shop .shop-2{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-image:url("img/home1-banner-grid-1.webp") ;
+}
+main #collection .shop .lien-2 .shop-2 h1{
+    color: rgb(57, 57, 57);
+    position: absolute;
+    font-size: 40px;
+    top: 180px;
+    left: 100.54px; 
+}
+main #collection .shop .lien-2 .shop-2 p{
+    margin-top: 250px;
+    color: rgb(47, 46, 46);
+    position: absolute;
+    font-size: 25px;
+    left: 100.54px; 
+    font-size: 20px;
+}
+
+main #collection .shops{
+    width: 80%;
+    height: 400px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto;
+    margin-top: 30px;
+}
+main #collection .shops .lien-1{
+   width: 38%;
+}
+main #collection .shops .shop-1{
+   width: 100%;
+   height: 400px;
+   background-image:url("img/home1-banner-grid-6.webp") ;
+   text-align: center;
+   position: relative;
+   
+}
+main #collection .shops .lien-1 .shop-1 h1{
+   color: white;
+   position: absolute;
+   font-size: 40px;
+   top: 200px;
+   left: 100.54px; 
+}
+main #collection .shops .lien-1 .shop-1 p{
+   margin-top: 250px;
+   color: white;
+   position: absolute;
+   font-size: 20px;
+   left: 184.336px; 
+   font-size: 20px;
+}
+main #collection .shops .lien-2{
+   width: 60%;
+}
+main #collection .shops .shop-2{
+   position: relative;
+   width: 100%;
+   height: 400px;
+   background-image:url("img/home1-banner-grid-3.webp") ;
+}
+main #collection .shops .lien-2 .shop-2 h1{
+   color: rgb(57, 57, 57);
+   position: absolute;
+   font-size: 40px;
+   top: 180px;
+   left: 100.54px; 
+}
+main #collection .shops .lien-2 .shop-2 p{
+   margin-top: 250px;
+   color: rgb(47, 46, 46);
+   position: absolute;
+   font-size: 25px;
+   left: 100.54px; 
+   font-size: 20px;
+}

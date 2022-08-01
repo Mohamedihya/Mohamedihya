@@ -1,0 +1,531 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: poppins;
+}
+header {
+   position: relative;
+   width: 100%;
+   height: 700px;
+   background: url('img/w7uj5m9wf5q-emma-miller\ \(1\).png');
+   background-position: center;
+   background-size: cover;
+   z-index: 10;
+   }
+
+   header:after{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background:inherit; 
+    z-index: -1;
+    bottom:0;
+    content: "";
+    /*background-color:transparent #fff transparent transparent;*/
+    transform-origin: right bottom; 
+    transform:skewY(-3deg);     
+   }
+
+   header .log_gtcf{
+       width: 35%;
+       height: 700px;
+       background-color: transparent;
+       margin-left: 260px;
+   }
+   header .log_gtcf .logo{
+       margin-bottom: 170px;
+       background-color: transparent;
+       padding-top: 100px;
+
+   }
+   header .log_gtcf .gtcf h1{
+         color:white;
+         font-size: 35px;
+   }
+   header .log_gtcf .gtcf p{
+         color:white;
+         margin: 40px 0px;
+         font-size: 20px;
+   }
+   header .log_gtcf .gtcf button{
+       padding: 18px 55px;
+       font-size: 25px;
+       border-radius: 20px;
+       background-color: rgb(228, 19, 82);
+       color:white;
+       border: none;
+   }
+   /************------------ end header--------------******************/
+   /************------------ start main--------------******************/
+   main #TA{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background-color: #f04670;
+    display: flex;
+    align-items: center;
+}
+main #TA::before{
+    content: ""; display: block;
+    width: 100%;
+    height: 110px;
+    background:inherit; 
+    position:absolute; top:0px; left:0px;
+    transform-origin:left ;
+    z-index: -1;
+    transform:skew(0deg,-3deg);     
+}
+
+main #TA:after{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background:inherit; 
+    z-index: 1;
+    bottom:0;
+    content: "";
+    /*background-color:transparent #fff transparent transparent;*/
+    transform-origin: right bottom; 
+    transform:skewY(-3deg);     
+   }
+
+   main #TA .titre_ADAP{
+       width: 80%;
+       height: 300px;
+       background-color:transparent;
+       margin: 0px auto;
+   }
+
+main #TA .titre{
+    width: 30%;
+    height: 50px;
+    text-align: center;
+    margin:10px auto;
+    background-color: transparent;
+}
+main #TA .titre{
+    color: white;
+    font-size: 25px;
+}
+main #TA .titre_ADAP .ADAP{
+ width: 100%;
+ height: 200px;
+ margin-top: 30px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+main #TA .titre_ADAP .ADAP .ai{
+    width: 25%;
+    height: 100%;
+    border-right: 2px solid white;
+    background-color: transparent;
+    text-align: center;
+}
+main #TA .titre_ADAP .ADAP .ai h1{
+    margin-top: 40px;
+    font-size: 70px;
+    color: white;
+}
+main #TA .titre_ADAP .ADAP .ai p{
+    font-size: 25px;
+    color: white;
+}
+
+main #TA .titre_ADAP .ADAP .d{
+    width: 25%;
+    height: 100%;
+    border-right: 2px solid white;
+    background-color: transparent;
+    text-align: center;
+}
+main #TA .titre_ADAP .ADAP .d h1{
+    margin-top: 40px;
+    font-size: 70px;
+    color: white;
+}
+main #TA .titre_ADAP .ADAP .d p{
+    font-size: 25px;
+    color: white;
+}
+
+
+main #TA .titre_ADAP .ADAP .a{
+    width: 25%;
+    height: 100%;
+    border-right: 2px solid white;
+    background-color:transparent;
+    text-align: center;
+}
+main #TA .titre_ADAP .ADAP .a h1{
+    margin-top: 40px;
+    font-size: 70px;
+    color: white;
+}
+main #TA .titre_ADAP .ADAP .a p{
+    font-size: 25px;
+    color: white;
+}
+
+
+main #TA .titre_ADAP .ADAP .pu{
+    width: 25%;
+    height: 100%;
+    background-color: transparent;
+    text-align: center;
+}
+main #TA .titre_ADAP .ADAP .pu h1{
+    margin-top: 40px;
+    font-size: 70px;
+    color: white;
+}
+main #TA .titre_ADAP .ADAP .pu p{
+    font-size: 25px;
+    color: white;
+}
+main #testimonials{
+    width: 100%;
+    height: 1400px;
+    position: relative;
+    background-image:url("img/Group-37.png") ;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+main #testimonials .titre_description{
+    width: 70%;
+    height: 800px;
+    text-align: center;
+    background-color: transparent;
+    margin: 0px auto;
+}
+main #testimonials .titre_description .titre{
+    width: 30%;
+    height: 60px;
+    margin: 0px auto;
+    background-color:transparent;
+    text-align: center;  
+}
+main #testimonials .titre_description .titre h1{
+    color: white;
+    font-size: 35px;   
+}
+main #testimonials .titre_description .description{
+    width: 100%;
+    height: 600px;
+    background-color:transparent;
+    margin: 120px auto;
+}
+main #testimonials .titre_description .description .description_1{
+    margin-top: -100px;
+    background-color: rgb(254, 251, 251);
+    width: 100%;
+    height: 600px;
+}
+main #testimonials .titre_description .description .description_1 h1{
+    padding-top: 120px;
+}
+main #testimonials .titre_description .description .description_1 p{
+    font-size: 20px;
+    color:rgb(75, 74, 74);
+    margin-top: 15px;
+    margin-bottom: 100px;
+}
+main #pricing{
+    position:relative;
+    background-color:black;
+    width: 100%;
+    height: 800px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+
+}
+main #pricing:after{
+   position: absolute;
+   top:0px;
+    content:"";
+    width: 100%;
+    height: 90px;
+    background-color: inherit;
+    z-index: -1;
+    transform-origin: left top;
+    transform:skew(0deg,-3deg);
+}
+main #pricing .titre_prix{
+    width: 80%;
+    height: 700px;
+    background-color:transparent;
+    margin: 0px auto;
+}
+main #pricing .titre_prix .titre{
+    background-color:transparent;
+    width: 20%;
+    margin: 0px auto; 
+    text-align: center;  
+}
+main #pricing .titre_prix .titre h1{
+    color:white;
+    font-size: 40px;
+ }
+
+main #pricing .titre_prix .prix{
+    width: 90%;
+    height: 600px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto;
+
+}
+main #pricing .titre_prix .prix .prix_1{
+    width: 33%;
+    height: 500px;
+    background-color: white;
+    width: 33.3333333333%;
+    margin-top: 75px;
+}
+
+main #pricing .titre_prix .prix .prix_1 .titre_1{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(238, 237, 237);
+    text-align: center;
+}
+main #pricing .titre_prix .prix .prix_1 .titre_1 h1{
+    padding-top: 20px;
+    font-size: 28px;
+    color:rgb(35, 35, 35)
+}
+main #pricing .titre_prix .prix .prix_1 .valeur{
+    width: 100%;
+    background-color:white;
+    text-align: center;
+
+}
+main #pricing .titre_prix .prix .prix_1 .valeur span{
+    font-size: 30px;
+}
+
+main #pricing .titre_prix .prix .prix_1 .valeur sub{
+    font-size: 30px;
+}
+main #pricing .titre_prix .prix .prix_1 .valeur .nombre{
+    font-size: 80px;
+}
+
+main #pricing .titre_prix .prix .prix_1 .valeur .paragraph{
+    width: 100%;
+    text-align: center;
+    margin: 30px auto;
+}
+main #pricing .titre_prix .prix .prix_1 .valeur .paragraph p{
+    margin-top: 10px;
+    color: rgb(101, 101, 101);
+    font-size: 20px;
+}
+main #pricing .titre_prix .prix .prix_1 .valeur .paragraph .fa-solid{
+    color:#f04670;
+    margin-right: 5px;
+}
+main #pricing .titre_prix .prix .prix_1 button{
+    padding: 10px 50px;
+    border-radius: 50px;
+    border: 3px solid #f04670;
+    background-color: transparent;
+    font-size: 27px;
+    color:#f04670;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+main #pricing .titre_prix .prix .prix_2{
+    width: 33%;
+    height: 500px;
+    background-color: white;
+    width: 33.3333333333%;
+    box-shadow: 5px 0px 5px 0px rgb(211, 210, 210),-5px -0px 5px 0px rgb(207, 204, 204);
+    z-index: 1;
+
+}
+
+main #pricing .titre_prix .prix .prix_2 .titre_1{
+    width: 100%;
+    height: 70px;
+    background-color: red;
+    text-align: center;
+}
+main #pricing .titre_prix .prix .prix_2 .titre_1 h1{
+    padding-top: 20px;
+    font-size: 28px;
+    color:rgb(35, 35, 35)
+}
+main #pricing .titre_prix .prix .prix_2 .valeur{
+    width: 100%;
+    background-color:white;
+    text-align: center;
+
+}
+main #pricing .titre_prix .prix .prix_2 .valeur span{
+    font-size: 30px;
+}
+
+main #pricing .titre_prix .prix .prix_2 .valeur sub{
+    font-size: 30px;
+}
+main #pricing .titre_prix .prix .prix_2 .valeur .nombre{
+    font-size: 80px;
+}
+
+main #pricing .titre_prix .prix .prix_2 .valeur .paragraph{
+    width: 100%;
+    text-align: center;
+    margin: 30px auto;
+}
+main #pricing .titre_prix .prix .prix_2 .valeur .paragraph p{
+    margin-top: 10px;
+    color: rgb(101, 101, 101);
+    font-size: 20px;
+}
+main #pricing .titre_prix .prix .prix_2 .valeur .paragraph .fa-solid{
+    color:#f04670;
+    margin-right: 5px;
+}
+main #pricing .titre_prix .prix .prix_2 button{
+    padding: 10px 50px;
+    border-radius: 50px;
+    border: 3px solid #f04670;
+    background-color: transparent;
+    font-size: 27px;
+    color:#f04670;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+main #pricing .titre_prix .prix .prix_3{
+    width: 33.3333333333%;
+    height: 500px;
+    background-color: white;
+    margin-top: 80px;
+}
+
+main #pricing .titre_prix .prix .prix_3 .titre_1{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(238, 237, 237);
+    text-align: center;
+}
+main #pricing .titre_prix .prix .prix_3 .titre_1 h1{
+    padding-top: 20px;
+    font-size: 28px;
+    color:rgb(35, 35, 35)
+}
+main #pricing .titre_prix .prix .prix_3 .valeur{
+    width: 100%;
+    background-color:white;
+    text-align: center;
+
+}
+main #pricing .titre_prix .prix .prix_3 .valeur span{
+    font-size: 30px;
+}
+
+main #pricing .titre_prix .prix .prix_3 .valeur sub{
+    font-size: 30px;
+}
+main #pricing .titre_prix .prix .prix_3 .valeur .nombre{
+    font-size: 80px;
+}
+
+main #pricing .titre_prix .prix .prix_3 .valeur .paragraph{
+    width: 100%;
+    text-align: center;
+    margin: 30px auto;
+}
+main #pricing .titre_prix .prix .prix_3 .valeur .paragraph p{
+    margin-top: 10px;
+    color: rgb(101, 101, 101);
+    font-size: 20px;
+}
+main #pricing .titre_prix .prix .prix_3 .valeur .paragraph .fa-solid{
+    color:#f04670;
+    margin-right: 5px;
+}
+main #pricing .titre_prix .prix .prix_3 button{
+    padding: 10px 50px;
+    border-radius: 50px;
+    border: 3px solid #f04670;
+    background-color: transparent;
+    font-size: 27px;
+    color:#f04670;
+    margin-top: 20px;
+}
+
+/*------------------* end main-----------------------------/*/
+/*------------------* start footer-----------------------------/*/
+footer{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    background-color: #f04670;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+footer:after{
+    width: 100%;
+    height: 100px;
+    background-color: aliceblue;
+    content: "";
+    position:absolute;
+    top:0px;
+    transform-origin: left bottom;
+    transform: skew(0deg,-3deg);
+    z-index: -1;
+    background-color: inherit;
+}
+footer .footer_1{
+    width: 80%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .footer_1_1{
+    width: 20%;
+}
+
+footer .footer_1 i{
+    color: white;
+    font-size: 28px;
+}
+footer .footer_1 h1{
+    color: white;
+    margin: 20px 0px;
+    font-size: 20px;
+}
+footer .footer_1 p{
+    color: white;
+    margin-bottom: 20px;
+}
+
+
+

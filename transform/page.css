@@ -1,0 +1,31 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.content{
+    width: 500px;
+    height: 500px;
+    margin: 200px auto;
+}
+.content:hover{
+    color: aliceblue;
+}
+
+.color{
+    width:50%;
+    height: 50%;
+    float: left;
+}
+.c1{
+    background-color: chocolate;
+}
+.c2{
+    background-color: blueviolet;
+}
+.c3{
+    background-color: brown;
+}
+.c4{
+    background-color: rgb(251, 251, 5);
+}
